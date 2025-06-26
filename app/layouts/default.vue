@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div>wdwd
     <slot/>
   </div>
 </template>

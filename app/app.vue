@@ -3,5 +3,8 @@
 </script>
 
 <template>
-
+<NuxtLayout>
+  <NuxtPage/>
+  <ToastContainer />
+</NuxtLayout>
 </template>
