@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue';
 import { useUserStore } from '~/stores/user';
 
 const userStore = useUserStore();
-const newName = ref(userStore.user?.name || '');
+const newName = ref(userStore.user?.first_name || '');
 
 const updateName = () => {
   if (newName.value.trim()) {

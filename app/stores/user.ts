@@ -12,7 +12,7 @@ export const useUserStore = defineStore('user', {
 
     updateName(newName: string) {
       if (this.user) {
-        this.user.name = newName;
+        this.user.first_name = newName;
       }
     }
   },

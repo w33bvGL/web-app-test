@@ -13,12 +13,12 @@ onMounted(() => {
 
 <template>
   <div class="p-4 flex flex-col items-center justify-center min-h-screen">
-    <CopyableText :text="userStore.user?.name" />
+    <CopyableText :text="userStore.user?.first_name" />
     <Avatar :src="userStore.user?.photo_url" />
 
     <div class="mt-2 text-sm text-gray-500">
       <p>ID: {{ userStore.user?.id }}</p>
-      <p>Имя: {{ userStore.user?.name || '—' }}</p>
+      <p>Имя: {{ userStore.user?.first_name || '—' }}</p>
       <p>Фамилия: {{ userStore.user?.last_name || '—' }}</p>
     </div>
 
