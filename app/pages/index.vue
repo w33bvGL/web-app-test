@@ -1,17 +1,22 @@
 <script setup lang="ts">
+import { ref, onMounted } from 'vue';
 import { useUserStore } from '~/stores/user';
 
 const userStore = useUserStore();
+const tgUser = ref(null);
 
 onMounted(() => {
-  const tgUser = getTelegramUser();
-  if (tgUser) {
-    userStore.setUser({ ...tgUser, name: tgUser.first_name });
+  const user = getTelegramUser();
+  tgUser.value = user;
+
+  if (user) {
+    userStore.setUser({ ...user, name: user.first_name });
   }
 });
 </script>
 
 <template>
+  <pre>{{ tgUser }}</pre> text
   <div class="p-4 flex flex-col items-center justify-center min-h-screen">
     <CopyableText :text="userStore.user?.first_name" />
     <Avatar :src="userStore.user?.photo_url" />

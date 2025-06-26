@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>wdwd
+  <div class="bg-neutral-100">
     <slot/>
   </div>
 </template>

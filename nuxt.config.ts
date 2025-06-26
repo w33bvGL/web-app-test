@@ -8,16 +8,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
+  ssr: false,
+
   devtools: {
     enabled: true
   },
 
   css: ['~/assets/css/main.css'],
-
-
-  ui: {
-    fonts: false
-  },
 
   runtimeConfig: {
     public: {
