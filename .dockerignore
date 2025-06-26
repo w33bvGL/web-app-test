@@ -1,0 +1,14 @@
+.git
+.github
+.idea
+#.nuxt
+#.output
+node_modules
+.env.dev
+.env.example
+.env.prod
+docker-compose.dev.yml
+docker-compose.prod.yml
+LICENSE
+README.md
+SECURITY.md

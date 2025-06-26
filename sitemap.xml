@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://pandora-saga.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pandora-saga.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pandora-saga.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pandora-saga.com/zh-CN/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pandora-saga.com/" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://pandora-saga.com/news</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pandora-saga.com/ru/news" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pandora-saga.com/ja/news" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pandora-saga.com/zh-CN/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pandora-saga.com/news" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+</urlset>
