@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
 import { useUserStore } from '~/stores/user';
 
 const userStore = useUserStore();
@@ -10,7 +9,7 @@ onMounted(() => {
   tgUser.value = user;
 
   if (user) {
-    userStore.setUser({ ...user, name: user.first_name });
+    userStore.setUser({ ...user });
   }
 });
 </script>
